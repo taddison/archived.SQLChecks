@@ -1,11 +1,5 @@
-. $PSScriptRoot/Test-TraceFlags.ps1
-. $PSScriptRoot/Get-NumberOfErrorLogs.ps1
-. $PSScriptRoot/Get-TLogsWithLargeGrowthSize.ps1
-. $PSScriptRoot/Get-DatabasesWithoutDDLTrigger.ps1
-. $PSScriptRoot/Get-OversizedIndexes.ps1
-. $PSScriptRoot/Get-TLogWithPercentageGrowth.ps1
-. $PSScriptRoot/Get-DatabasesOverMaxDataFileSpaceUsed.ps1
-. $PSScriptRoot/Get-DbsWithoutGoodCheckDb.ps1
-. $PSScriptRoot/Get-DuplicateIndexes.ps1
-. $PSScriptRoot/Get-FixedSizeFiles.ps1
-. $PSScriptRoot/Get-AutoGrowthRisks.ps1
+$files = Get-ChildItem -Recurse -Filter *.ps1 -Path $PSScriptRoot/Functions
+
+foreach($file in $files) {
+    . $file.FullName
+}

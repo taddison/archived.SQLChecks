@@ -1,8 +1,0 @@
-{
-    "ServerInstance":"127.0.0.1",
-    "SpConfig": {
-        "MaxDegreeOfParallelism":0,
-        "XpCmdShellEnabled":0
-    },
-    "TraceFlags":[3226]
-}
