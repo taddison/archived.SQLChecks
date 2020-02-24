@@ -1,3 +1,5 @@
+> This project is now archived, and is now maintained at https://github.com/DBTrenches/SQLChecks
+
 # SQLChecks
 [![Build Status](https://img.shields.io/appveyor/ci/taddison/SQLChecks.svg)](https://ci.appveyor.com/project/taddison/sqlchecks)
 [![Test Status](https://img.shields.io/appveyor/tests/taddison/SQLChecks.svg)](https://ci.appveyor.com/project/taddison/sqlchecks/build/tests)
